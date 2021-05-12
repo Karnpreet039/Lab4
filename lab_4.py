@@ -10,3 +10,23 @@ If the user could not guess the correct answer within the max_tries, then print
 "You have uded up your allotment of guesses.", then print  "The correct answer is 'California'".
 
 """
+"""
+main
+    question = "what is the capital of Califonia"
+    answer = "California"
+    ask(question, answer)
+
+ask 
+    tries = 0
+    loop three times
+        increment tries 
+        ask user input ()
+        check to esee of user input is equal to answer
+            if so, print "Correct" the exit loop
+    if not correct 
+        print to the user "You have uded up your allotment of guesses."
+        print the corect answer "the correct answer is 'California'"
+
+main 
+"""
+
